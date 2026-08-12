@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx next build",
+    "build": "chmod +x node_modules/.bin/next && next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
